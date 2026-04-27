@@ -12,10 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\DTOs\" />
-    <Folder Include="src\MyApi.Applicaction\DTO\" />
-    <Folder Include="src\MyApi.Applicaction\Services\" />
-    <Folder Include="src\MyApi.Domain\Entities\" />
+    <ProjectReference Include="..\MyApi.Applicaction\MyApi.Applicaction.csproj" />
   </ItemGroup>
 
 </Project>
